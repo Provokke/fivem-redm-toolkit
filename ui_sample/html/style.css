@@ -1,0 +1,8 @@
+body { margin: 0; font-family: sans-serif; background: transparent; }
+.hidden { display: none; }
+#panel {
+  position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 320px; padding: 16px; color: #eee; background: rgba(20, 20, 24, 0.92);
+  border-radius: 8px;
+}
+button { margin-right: 8px; padding: 6px 12px; cursor: pointer; }
